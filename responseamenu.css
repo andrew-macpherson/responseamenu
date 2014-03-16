@@ -1,0 +1,81 @@
+
+#responseamenu_trigger {
+    cursor: pointer;
+    display: block;
+    height: 17px;
+    position: absolute;
+    width: 30px;
+    z-index: 1000;
+}
+
+#responseamenu_trigger > span{
+    width: 100%;
+    background: #333333;
+    height: 3px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+
+
+
+
+#responseamenu_slideTrigger{
+
+}
+
+#responseamenu_slide{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 300px;
+    background: #2727AF;
+    z-index: 10000;
+}
+
+#responseamenu_slide > div{
+    background: #191586;
+    padding: 20px 30px
+}
+
+#responseamenu_slide > div:first-child{
+    padding: 15px 30px 10px
+}
+
+#responseamenu_slide > div:first-child > a{
+    background: url("images/menuArrow.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    display: block;
+    height: 22px;
+    padding-top: 8px;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+}
+
+#responseamenu_slide> div + div{
+    background: #2727AF;
+}
+
+#responseamenu_slide> div + div > a{
+    display: block;
+    position: relative;
+    clear: both;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+#responseamenu_slide> div + div > a:hover{
+    color: #FE8B00;
+}
+
+
+.responseamenu_slideTrigger{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 15px 0 10px 0;
+}
